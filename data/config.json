@@ -1,0 +1,50 @@
+{
+    "realtime": {
+        "enabled": true,
+        "file_monitor": true,
+        "process_monitor": true,
+        "registry_monitor": true,
+        "network_monitor": true,
+        "excluded_paths": [],
+        "excluded_processes": [
+            "explorer.exe",
+            "svchost.exe",
+            "lsass.exe"
+        ],
+        "excluded_extensions": [
+            ".tmp",
+            ".log"
+        ]
+    },
+    "scan": {
+        "threads": 4,
+        "max_file_size_mb": 100,
+        "scan_directories": [
+            "C:\\Users\\Public",
+            "C:\\ProgramData",
+            "C:\\Windows\\Temp",
+            "C:\\Users\\*\\Desktop",
+            "C:\\Users\\*\\Downloads"
+        ],
+        "skip_extensions": [
+            ".tmp",
+            ".log",
+            ".bak"
+        ]
+    },
+    "defender": {
+        "takeover": false
+    },
+    "report": {
+        "output_dir": "./reports",
+        "format": "json"
+    },
+    "logging": {
+        "level": "info",
+        "file": "./logs/FS.log"
+    },
+    "trust_zone": {
+        "paths": []
+    },
+    "language": "zh-CN"
+}
