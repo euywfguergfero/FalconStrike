@@ -1,4 +1,3 @@
-# 还！没！做！完！
 # FalconStrike – 轻量级通用杀毒引擎
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
