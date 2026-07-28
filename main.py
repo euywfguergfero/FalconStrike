@@ -559,6 +559,8 @@ def main():
 
 
 if __name__ == "__main__":
+    import multiprocessing
+    multiprocessing.freeze_support()   # 这一行必须加
     try:
         print("[DEBUG] Running main()", flush=True)
         main()

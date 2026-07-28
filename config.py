@@ -57,18 +57,7 @@ DEFAULT_CONFIG = {
     }
 }
 
-DEFAULT_HASHES = {
-    "5d41402abc4b2a76b9719d911017c592": {
-        "description": "Test sample (hello)",
-        "family": "Test",
-        "severity": "low"
-    },
-    "098f6bcd4621d373cade4e832627b4f6": {
-        "description": "SilverFox WinOS v2.3",
-        "family": "SilverFox",
-        "severity": "critical"
-    }
-}
+DEFAULT_HASHES = {}
 
 
 def detect_system_language():
